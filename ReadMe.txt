@@ -9,6 +9,13 @@ Launch Instructions:
 5. Go to 
 	http://192.168.99.100:8000
 
+Alternative non-container launch:
+1. Clone repo
+2. cd to the directory
+3. Create a python virtual environment
+4. pip install -r requirements.txt
+5. python manage.py runserver
+6. http://127.0.0.1:8000
 
 API Guide: Navigation is through urls
 Login and logout:
