@@ -1,0 +1,5 @@
+See ReadMe for launch instructions and notes.
+
+If this was a production application I would make sure to ensure that the templates included navigation rather than everything being through urls. Additionally, I would use a more robust database than sqlite3, like mySQL. Then, I would need to change the server used from the django test server, to a production server such as Apache, and change the WSGI file.
+
+If the datatypes for mood were changed, I would need to change the model to the new datatype. Then run Makemigrations, and Migrate, I would also need to write a conversion function in order to migrate the existing database moods.

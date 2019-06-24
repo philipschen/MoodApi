@@ -1,0 +1,8 @@
+<div align="left">
+    <h3>Welcome | You Can Log in here!</h3>
+    <form method="post" autocomplete="off">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Login</button><br><br>
+    </form>
+</div>
